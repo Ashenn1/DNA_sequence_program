@@ -1,0 +1,113 @@
+  // char*seq=new char[100];
+  CodonsTable cod;
+   char*filename=new char[20];
+   RNA rseq;
+   int typ;
+   DNA_Type t;
+//   cout<<"Enter a DNA sequence and type(0,1,2,3) please : ";
+//   cin>>seq;
+//   cin>>typ;
+//   t=(DNA_Type)typ;
+   DNA seq1;
+//(seq,t);
+
+//    cout<<"the sequence you entered is :"<<endl;
+//    seq1.print();
+//    cout<<"complementary strand is :"<<endl;
+//    seq1.buildcomplementarystrand();
+////    cout<<"enter file name to take another sequence from : "<<endl;
+////    cin>>filename;
+////    cout<<"enter the start and end number of the sequence you want from the file : "<<endl;
+////    cin>>seq1;
+////    seq1.loadsequencefromfile(filename);
+////     cout<<"complementary strand is :"<<endl;
+////      seq1.buildcomplementarystrand();
+//    cout<<"enter the name of the file you want to save the sequence in "<<endl;
+//    cin>>filename;
+//    seq1.savesequencetofile(filename);
+    //cout<<"your sequence is saved successfully check it out !!";
+////cout<<"converted to RNA : ";
+////seq1.converttoRNA();
+
+
+ RNA seq1;
+     DNA d;
+     protein p;
+     CodonsTable c;
+     char*filename=new char[20];
+         cout<<"enter file name to take sequence from : "<<endl;
+    cin>>filename;
+    cout<<"enter the start and end number of the sequence you want from the file : "<<endl;
+    cin>>seq1;
+    seq1.loadsequencefromfile(filename);
+    c.loadcodonsfromfile("RNA_codon_table.txt");
+    p=seq1.ConvertToProtein(c);
+   cout<<"the converted protein sequence is :"<<endl;
+    cout<<p.getseq()<<endl;
+
+
+//    char c;
+//    char*seq=new char[100];
+//    int typ;
+//    DNA_Type t;
+//    cout<<"Enter D for DNA or R for RNA or P for protein : "<<endl;
+//    cin>>c;
+//
+//    sequence*pseq;
+//
+//    switch(c)
+//    {
+//    case'D':
+//        pseq=new DNA;
+//        cout<<"Enter your sequence and it's type :"<<endl ;
+//        cin>>seq;
+//
+//        cin>>typ ;
+//        ((DNA*)pseq)->(seq,(DNA_Type)typ);
+//        int choice ;
+//        cout<<"chose 1 to convert to RNA & 2 to Protein :"<<endl;
+//        cin>>choice ;
+//        if (choice ==1)
+//        {
+//        ((DNA*)pseq)->converttoRNA();
+//        }
+////        else
+////        ((DNA*)pseq)->converttoRNA();
+////        //((RNA*)pseq)->ConvertToProtein();
+//
+//
+//
+//case 'R': pseq=new RNA;
+//        cout<<"Enter your sequence and it's type :"<<endl ;
+//        cin<<seq;
+//
+
+
+LONGEST COMMON SUBSEQUENCE TRYOUT
+ sequence*s1=new DNA;
+    sequence*s2=new DNA;
+    char*seq1=new char[100];
+     char*seq2=new char[100];
+     char*s3=new char[100];
+     cout<<"enter 2 sequences :"<<endl;
+     cin>>seq1>>seq2;
+     s1->setseq(seq1);//by3ady 3la el setseq bt3t el DNA l2n bt3t el base class virtual
+     s2->setseq(seq2);
+     s3=Align(s1,s2);
+     cout<<"their alignment is :"<<endl;
+     cout<<s3;
+//        cin >>typ ;
+//        ((DNA*)pseq)->DNA(seq,typ)
+//        int choice ;
+//        cout<<"chose 1 to convert to RNA & 2 to Protein :"<<endl;
+//        cin<<choice ;
+//        if (choice ==1)
+//        {
+//        ((RNA*)pseq)->ConvertToDNA();
+//        }
+//        else
+//        ((RNA*)pseq)->ConvertToDNA();
+//        ((RNA*)pseq)->ConvertToProtein();
+//
+//
+//    }

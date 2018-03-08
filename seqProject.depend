@@ -1,0 +1,182 @@
+# depslib dependency file v1.0
+1482147653 source:c:\users\soha samad\desktop\college\seqproject\main.cpp
+	<iostream>
+	<iomanip>
+	"sequence.h"
+	"DNA.h"
+	"RNA.h"
+
+1482147670 c:\users\soha samad\desktop\college\seqproject\include\sequence.h
+	<cstring>
+	<iomanip>
+
+1482106473 c:\users\soha samad\desktop\college\seqproject\include\dna.h
+	<iomanip>
+	<sequence.h>
+
+1482144932 c:\users\soha samad\desktop\college\seqproject\include\rna.h
+	<iomanip>
+	<sequence.h>
+
+1482009288 source:c:\users\soha samad\desktop\college\seqproject\src\codonstable.cpp
+
+1481918371 c:\users\soha samad\desktop\college\seqproject\include\codonstable.h
+
+1482147653 source:c:\users\soha samad\desktop\college\seqproject\src\dna.cpp
+	"DNA.h"
+	<cstring>
+	<iostream>
+
+1482009289 source:c:\users\soha samad\desktop\college\seqproject\src\protein.cpp
+
+1482144932 source:c:\users\soha samad\desktop\college\seqproject\src\rna.cpp
+	"RNA.h"
+	<iostream>
+	<cstring>
+
+1482106437 source:c:\users\soha samad\desktop\college\seqproject\src\sequence.cpp
+	"sequence.h"
+	<cstring>
+
+1483024813 source:c:\users\soha samad\desktop\seqproject\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"sequence.h"
+	"DNA.h"
+	"RNA.h"
+	"CodonsTable.h"
+
+1482971359 c:\users\soha samad\desktop\seqproject\include\sequence.h
+	<cstring>
+	<iomanip>
+	<fstream>
+
+1482966757 c:\users\soha samad\desktop\seqproject\include\dna.h
+	<iomanip>
+	<fstream>
+	<sequence.h>
+	"RNA.h"
+
+1482968283 c:\users\soha samad\desktop\seqproject\include\rna.h
+	<iomanip>
+	<fstream>
+	<iostream>
+	<sequence.h>
+	"protein.h"
+	"CodonsTable.h"
+	"DNA.h"
+
+1482968033 source:c:\users\soha samad\desktop\seqproject\src\codonstable.cpp
+	"CodonsTable.h"
+	<fstream>
+	<iostream>
+
+1482968815 source:c:\users\soha samad\desktop\seqproject\src\protein.cpp
+	"protein.h"
+
+1482968283 source:c:\users\soha samad\desktop\seqproject\src\rna.cpp
+	"RNA.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	"DNA.h"
+	"protein.h"
+	<string>
+
+1482971040 source:c:\users\soha samad\desktop\seqproject\src\dna.cpp
+	"DNA.h"
+	"RNA.h"
+	<cstring>
+	<string>
+	<fstream>
+	<iostream>
+
+1482974254 source:c:\users\soha samad\desktop\seqproject\src\sequence.cpp
+	"sequence.h"
+	<cstring>
+	<iostream>
+	<fstream>
+
+1482968033 c:\users\soha samad\desktop\seqproject\include\codonstable.h
+	<cstring>
+	<fstream>
+
+1482964733 c:\users\soha samad\desktop\seqproject\include\protein.h
+	<iomanip>
+	<sequence.h>
+	"DNA.h"
+	<cstring>
+	<iostream>
+
+1482968033 source:e:\hkh\seqproject\seqproject\src\codonstable.cpp
+	"CodonsTable.h"
+	<fstream>
+	<iostream>
+
+1482968033 e:\hkh\seqproject\seqproject\include\codonstable.h
+	<cstring>
+	<fstream>
+
+1482968815 source:e:\hkh\seqproject\seqproject\src\protein.cpp
+	"protein.h"
+
+1482964733 e:\hkh\seqproject\seqproject\include\protein.h
+	<iomanip>
+	<sequence.h>
+	"DNA.h"
+	<cstring>
+	<iostream>
+
+1483035120 e:\hkh\seqproject\seqproject\include\sequence.h
+	<cstring>
+	<iomanip>
+	<fstream>
+
+1483035120 e:\hkh\seqproject\seqproject\include\dna.h
+	<iomanip>
+	<fstream>
+	<sequence.h>
+	"RNA.h"
+
+1482968283 e:\hkh\seqproject\seqproject\include\rna.h
+	<iomanip>
+	<fstream>
+	<iostream>
+	<sequence.h>
+	"protein.h"
+	"CodonsTable.h"
+	"DNA.h"
+
+1482968283 source:e:\hkh\seqproject\seqproject\src\rna.cpp
+	"RNA.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	"DNA.h"
+	"protein.h"
+	<string>
+
+1483032931 source:e:\hkh\seqproject\seqproject\src\sequence.cpp
+	"sequence.h"
+	<cstring>
+	<iostream>
+	<fstream>
+
+1483035570 source:e:\hkh\seqproject\seqproject\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"sequence.h"
+	"DNA.h"
+	"RNA.h"
+	"CodonsTable.h"
+
+1483035216 source:e:\hkh\seqproject\seqproject\src\dna.cpp
+	"DNA.h"
+	"RNA.h"
+	<cstring>
+	<string>
+	<fstream>
+	<iostream>
+
